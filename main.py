@@ -4,8 +4,8 @@ from aiogram import Bot, types
 from aiogram.dispatcher import Dispatcher
 from aiogram.utils import executor
 
-open_weather_token = "0d0b9cd1224b74521c59348f9895abf5"
-tg_bot_token = "1337112161:AAGX1fFX_HxauLT8cmOcheO63lTJxJUriWk"
+open_weather_token = ""
+tg_bot_token = ""
 bot = Bot(token=tg_bot_token)
 dp = Dispatcher(bot)
 
